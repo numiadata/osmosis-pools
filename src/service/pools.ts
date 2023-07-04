@@ -12,13 +12,14 @@ import { calculateRouteGraph, getUSDCPrice } from "../model/route";
 import { PoolGraph } from "../model/graph";
 import { LCDClient } from "../external/cosmos-client/lcd-client";
 
-let tracePool = 749;
+let tracePool = 0;
 
 export async function getPoolTvls(osmosisClient: LCDClient) {
   const { pools } = await fetchAllPools(osmosisClient);
   const withTvl = calculateTVL(pools);
   return withTvl;
 }
+
 export async function getPrices(osmosisClient: LCDClient) {
   const { pools } = await fetchAllPools(osmosisClient);
   const prices = calculatePrices(pools);

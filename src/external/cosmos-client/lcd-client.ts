@@ -1,6 +1,7 @@
+import "dotenv/config";
 import ok from "tiny-invariant";
 
-const NUMIA_KEY = null;
+const NUMIA_KEY = process.env.NUMIA_KEY;
 
 export class LCDClient {
   _type = "lcd" as const;
