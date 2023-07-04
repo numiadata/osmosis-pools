@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "@type": "/osmosis.gamm.v1beta1.Pool",
+            "address": "osmo1xct94me26df4k2fs6waecnvzca8dzv2jxl798tndqq3ync3tdkqskpn5cl",
+            "id": "709",
+            "pool_params": {
+                "swap_fee": "0.002000000000000000",
+                "exit_fee": "0.000000000000000000",
+                "smooth_weight_change_params": null
+            },
+            "future_pool_governor": "24h",
+            "total_shares": {
+                "denom": "gamm/pool/709",
+                "amount": "5018260016531135377"
+            },
+            "pool_assets": [
+                {
+                    "token": {
+                        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                        "amount": "5270895"
+                    },
+                    "weight": "536870912000000"
+                },
+                {
+                    "token": {
+                        "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+                        "amount": "51833232"
+                    },
+                    "weight": "536870912000000"
+                }
+            ],
+            "total_weight": "1073741824000000"
+        },
+        {
+            "@type": "/osmosis.gamm.v1beta1.Pool",
+            "address": "osmo1jz730xfzjnkp2zaasvqg9e3smv2a4f8qvrm6p8cs83m2srkr56hs4wtm3w",
+            "id": "749",
+            "pool_params": {
+                "swap_fee": "0.002000000000000000",
+                "exit_fee": "0.000000000000000000",
+                "smooth_weight_change_params": null
+            },
+            "future_pool_governor": "24h",
+            "total_shares": {
+                "denom": "gamm/pool/749",
+                "amount": "1016620412909867372"
+            },
+            "pool_assets": [
+                {
+                    "token": {
+                        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                        "amount": "8924"
+                    },
+                    "weight": "536870912000000"
+                },
+                {
+                    "token": {
+                        "denom": "ibc/49C2B2C444B7C5F0066657A4DBF19D676E0D185FF721CFD3E14FA253BCB9BC04",
+                        "amount": "720769652151336238759"
+                    },
+                    "weight": "536870912000000"
+                }
+            ],
+            "total_weight": "1073741824000000"
+        }
+    ]
+}
