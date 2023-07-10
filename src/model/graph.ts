@@ -50,7 +50,7 @@ export class PoolGraph {
             trace && console.log('PriceCache has 1', token1.denom, this.prices.get(token1.denom))
             const r = toUSD(
                 modifyCoin(this.prices.get(token1.denom)!, double, (amount) =>
-                    amount.mul(getTokenPoolAmount(amount2))
+                    amount.mul(getTokenPoolAmount(amount1))
                 )
             )
             this.liquidities.set(pool.id, r)
